@@ -19,6 +19,7 @@ client = OpenAI(
 # NEW in stage 2
 # 2. Write the system entry: who the assistant is, what it knows, and its rules.
 system_entry = {
+
     "role": "system",
     "content": (
         "You are the assistant of a small café by the sea. "

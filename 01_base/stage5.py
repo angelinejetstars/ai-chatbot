@@ -33,7 +33,7 @@ system_entry = {
 # 3. Create the list once, and set how many recent entries are kept.
 #    Each question is one entry, and each reply is one entry.
 history = [system_entry]
-KEEP = 2
+KEEP = 6
 if KEEP < 1:   # the model must receive the new question, so 1 is the smallest value
     raise SystemExit("KEEP must be 1 or more.")
 
